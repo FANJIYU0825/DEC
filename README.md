@@ -5,7 +5,7 @@ Dec is a Deep embedding Cluster to find out is the low dim help the Cluster well
 3. Calculate loss the original data BEC(Binary Cross Entropy) and reconstuction data distance SSE(Error Sum of Squares )
 ## 1. Net AutoEncoder
 
-''' =python 
+``` =python 
  self.encoder = torch.nn.Sequential(
             torch.nn.Linear(784, 500),
             torch.nn.ReLU(),
@@ -15,4 +15,4 @@ Dec is a Deep embedding Cluster to find out is the low dim help the Cluster well
             torch.nn.ReLU(),
             torch.nn.Linear(2000, 10),
         )
-'''
+```
