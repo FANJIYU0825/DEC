@@ -77,4 +77,3 @@ class VAE(torch.nn.Module):
         return recon_x, mu, logvar
 
 
-
