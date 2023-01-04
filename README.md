@@ -2,7 +2,7 @@
 Dec is a Deep embedding Cluster to find out is the low dim help the Cluster well and the reconstruction  distance between the originl data 
 1. To pretrain an auto encoder  get representation of the data 
 2. Use the Pretrain data set run kmeans 
-3. Calculate loss the original data and reconstuction data distance SSE
+3. Calculate loss the original data BEC(Binary Cross Entropy) and reconstuction data distance SSE(Error Sum of Squares )
 ## 1. Net AutoEncoder
 
 ''' =python 
